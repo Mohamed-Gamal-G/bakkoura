@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Created By Mohamed Gamal - mohamed--gamal.vercel.app  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <title>bakkoura</title>
+</head>
+  <body>
+    <!--  ====================== Navbar ======================  -->
+    <div class='wrapper'>
+      <header class='primary-header'>
+        <div class='container'>
+          <a href='#' class='home-link'>
+            Bakkoura Wink
+          </a>
+          <img class="Frame1" src="imgs/Frame 1.png" />
+          <!-- <div class="Menu-text">Menu</div> -->
+          <div class='nav-wrapper'>
+            <input type='checkbox' id='primary-toggle' aria-controls='primary-navigation' hidden>
+            <label for='primary-toggle' class='primary-toggle'>
+              <div id="menu"></div>
+              <!-- <img id="menu" src="imgs/menu.png" /> -->
+              <div class="Menu-text">Menu</div>
+              <span class='visually-hidden'>Menu</span>
+            </label>
+            <nav class='primary-navigation' id='primary-navigation'>
+              <ul class='nav-list' aria-label='Primary' role='list'>
+                <div class="linkbar">
+                  <li class='active'><a href=''>Video & Galery</a></li>
+                  <li><a href='#'>About Wink</a></li>
+                  <li><a href='#'>Technical Specs </a></li>
+                  <li><a href='#'>How Can I Get</a></li>
+                  <li><a href='#'>Where to Buy</a></li>
+                </div>
+                <li style="display: flex;">
+                  <a href="https://www.instagram.com/bakkoura_official/?hl=en" target="_blank">
+                    <img src="imgs/Group 8129.png" />
+                  </a>
+                  <a href="https://www.facebook.com/bakkoura.official/" target="_blank">
+                    <img src="imgs/Group 8129 (1).png" />
+                  </a>
+                  <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBakkourawatches" target="_blank">
+                    <img src="imgs/Group 8129 (2).png" />
+                  </a>
+                </li>
+                <li class="BAKKOURA">BAKKOURA © 2021. ALL RIGHTS RESERVED.</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- // ====================== Navbar ====================== // -->
+    <!--  ====================== section1 ======================  -->
+    <section class="section1">
+      <div class="mobile"></div>
+      <div class="Yellow_watch" id="Yellow_watch"></div>
+      <div class="black_watch" id="black_watch"></div>
+    </section>
+    <!-- // ====================== section1 ====================== // -->
+    <!--  ====================== section2 ======================  -->
+    <div class="section2-container">
+      <Image class="section2" src="imgs/Rectangle 3193.png" width={1440} height={662} alt="" />
+
+      <a href="https://www.youtube.com/@bakkoura3336" target="_blank">
+        <img src="imgs/video.png" />Open with Youtube
+      </a>
+    </div>
+    <!-- // ====================== section2 ====================== // -->
+    <!--  ====================== section3 ======================  -->
+    <section class="section3">
+      <div class="gallery" onclick="openLightbox(event)">
+        <Image src="imgs/gallery/Rectangle 3365.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3366.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3368.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3367.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3369.png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3368(2).png" alt="" />
+        <Image src="imgs/gallery/Rectangle 3370.png" alt="" width={300} height={50} />
+        <Image src="imgs/gallery/Rectangle 3369 (1).png" alt="" />
+      </div>
+      <!-- Lightbox container -->
+      <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+        <!-- Thumbnails container -->
+        <div id="thumbnail-container">
+          <!-- Thumbnails will be added dynamically using JavaScript -->
+        </div>
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+      </div>
+      </div>
+      </div>
+    </section>
+    </section>
+    <!-- // ====================== section3 ====================== // -->
+    <!--  ====================== section4 ======================  -->
+    <section class="section4">
+      <div class="left_side">
+        <h1>
+          To hear the
+          <br />
+          Soul look into
+          <br />
+          Eyes
+        </h1>
+        <p>
+          Eyes can't lie but can speak, they can gift hope, faith and love.
+          <br />
+          Eyes are like life in miniature. That's why "The wink" can change life,
+          <br />
+          the world, the course of history.
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="right_side">
+        <div class="section4Image"></div>
+        <img src="imgs/light.png" />
+      </div>
+    </section>
+    <!-- // ====================== section4 ====================== // -->
+    <!--  ====================== section5 ======================  -->
+    <section class="section5">
+      <h1>Technical
+        <br />
+        Specs
+      </h1>
+      <img src="imgs/Section 8.png" />
+      <a href="#">I Want to Buy!</a>
+    </section>
+    <!-- // ====================== section5 ====================== // -->
+    <!--  ====================== section6 ======================  -->
+    <section class="section6">
+      <div class="left_side left_side1">
+        <img src="imgs/img.png" />
+        <img class="eye" src="imgs/eye.png" />
+      </div>
+      <div class="right_side">
+        <div class="top">
+          <h1> &nbsp; Up on
+            <br />
+            "The wink"
+          </h1>
+          <p>
+            To speak or to hide, to say yes or to escape, to resque or to punish.
+            <br />
+            This second can rule the destiny.
+          </p>
+        </div>
+        <div class="botom">
+          <div class="left_side">
+            <h2>Quality Guarantee</h2>
+            <p>
+              For 7 years we unconditionally bear and take care of every Bakkoura watch. The warranty also includes an
+              annual service check.
+            </p>
+          </div>
+          <div class="right_side">
+            <h2>Take Back Return Policy</h2>
+            <p>
+              Satisfaction Guarantee is our special take back offer for those who have changed their mind. Within a
+              year, we will take the Bakkoura watch back to the family and refund you 60% of the cost.
+            </p>
+            <a href="#">Read more on Bakkoura.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // ====================== section6 ====================== // -->
+    <!--  ====================== section7 ======================  -->
+    <section class="section7">
+      <h1>
+        Join
+        <br />
+        TheExcellence
+      </h1>
+      <p>
+        The wink collection belongs to BAKKOURA brand, part of Bakkoura dynasty.
+        <br />
+        It is a unique consumer search and purchase experience: design ideas, limitless customization, unlimited choice
+        and individuality.
+      </p>
+      <form>
+        <div class="inputs">
+          <input type="text" id="First Name" placeholder="First Name" />
+          <input type="text" id="First-Name" placeholder="Last Name" />
+          <input type="Email" id="Email" placeholder="Email" />
+          <input type="text" id="Country" placeholder="Country" />
+        </div>
+        <input class="Message" type="text" id="Message" placeholder="Message" />
+        <div class="last">
+          <input type="radio" class="radio" checked />
+          <p>
+            Your personal data are guaranteed to be safe and will not be handed over to third parties.
+            <span>I accept the privacy policy.</span>
+          </p>
+          <input class="submit" type="submit" href="#"></input>
+        </div>
+      </form>
+    </section>
+    <!-- // ====================== section7 ====================== // -->
+    <!--  ====================== Footer ======================  -->
+    <footer>
+      <img class="logo" src="imgs/Vector 1.png" />
+      <div class="container">
+        <div class="copyright">
+          <img src="imgs/Group 392.png" />
+          <p>BAKKOURA © 2021. ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="links">
+          <a href="#">Collections</a>
+          <a href="#">About Bakkoura</a>
+          <a href="#">The Story</a>
+          <a href="#">Invest in your ideas</a>
+          <a href="#">WHERE TO BUY</a>
+        </div>
+        <div class="sosyal">
+          <a href="https://www.instagram.com/bakkoura_official/?hl=en">
+            <img src="imgs/Group 8129.png" />
+          </a>
+          <a href="https://www.facebook.com/bakkoura.official/">
+            <img src="imgs/Group 8129 (1).png" />
+          </a>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBakkourawatches">
+            <img src="imgs/Group 8129 (2).png" />
+          </a>
+        </div>
+      </div>
+      <div class="cookies">
+        We use cookies to provide you with the best browsing experience.
+        <a class="#">ok</a>
+      </div>
+    </footer>
+    <!-- // ====================== Footer ====================== // -->
+    <script src="./main.js"></script>
+  </body>
+</html>
