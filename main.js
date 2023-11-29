@@ -76,23 +76,15 @@ function changeImage(direction) {
 // Update the lightbox image and thumbnails
 function updateLightboxImage() {
   const lightboxImg = document.getElementById('lightbox-img');
-  const thumbnailContainer = document.getElementById('thumbnail-container');
   // Update the main lightbox image
   lightboxImg.src = images[currentIndex].src;
-  // Clear existing thumbnails
-  thumbnailContainer.innerHTML = '';
   // Add new thumbnails
   images.forEach((image, index) => {
     const thumbnail = document.createElement('img');
     thumbnail.src = image.src;
     thumbnail.alt = `Thumbnail ${index + 1}`;
     thumbnail.classList.add('thumbnail');
-    thumbnail.addEventListener('click', () => updateMainImage(index));
-    thumbnailContainer.appendChild(thumbnail);
   });
-  // Highlight the current thumbnail
-  const thumbnails = document.querySelectorAll('.thumbnail');
-  thumbnails[currentIndex].classList.add('active-thumbnail');
 }
 // Update the main lightbox image when a thumbnail is clicked
 function updateMainImage(index) {
