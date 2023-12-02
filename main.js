@@ -33,14 +33,14 @@ changeImage2(myElement, imgList);
 /* ==================== menu ==================== */
 var myElement = document.getElementById('menu'),
   imgList = [
-    "imgs/menu.png",
-    "imgs/menu2.png",
+    "imgs/Property 1=Default1.png",
+    "imgs/Property 1=Variant2.png",
   ];
 function changeMenu(myElement, imgList) {
   setInterval(function () {
     randomImage = Math.floor(Math.random() * imgList.length);
     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 1000);
+  }, 3000);
 }
 changeImage2(myElement, imgList);
 /* // ==================== menu ==================== // */

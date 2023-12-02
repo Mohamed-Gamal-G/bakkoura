@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
 </head>
   <body>
     <!--  ====================== Navbar ======================  -->
@@ -31,20 +32,20 @@
             <nav class='primary-navigation' id='primary-navigation'>
               <ul class='nav-list' aria-label='Primary' role='list'>
                 <div class="linkbar">
-                  <li class='active'><a href=''>Video & Galery</a></li>
-                  <li><a href='#'>About Wink</a></li>
-                  <li><a href='#'>Technical Specs </a></li>
+                  <li class='active'><a href='#Video_Galery'>Video & Galery</a></li>
+                  <li><a href='https://www.bakkoura.com/about' target="_blank">About Wink</a></li>
+                  <li><a href='#Technical_Specs'>Technical Specs </a></li>
                   <li><a href='#'>How Can I Get</a></li>
-                  <li><a href='#'>Where to Buy</a></li>
+                  <li><a href='https://www.badreya.com/collections/the-wink' target="_blank">Where to Buy</a></li>
                 </div>
-                <li style="display: flex;">
+                <li class="nav-social" style="display: flex;">
                   <a href="https://www.instagram.com/bakkoura_official/?hl=en" target="_blank">
                     <img src="imgs/Group 8129.png" />
                   </a>
                   <a href="https://www.facebook.com/bakkoura.official/" target="_blank">
                     <img src="imgs/Group 8129 (1).png" />
                   </a>
-                  <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBakkourawatches" target="_blank">
+                  <a href="https://twitter.com/i/flow/login?redirect_after_login=/Bakkourawatches" target="_blank">
                     <img src="imgs/Group 8129 (2).png" />
                   </a>
                 </li>
@@ -62,18 +63,27 @@
       <div class="Yellow_watch" id="Yellow_watch"></div>
       <div class="black_watch" id="black_watch"></div>
     </section>
-    <!-- // ====================== section1 ====================== // -->
-    <!--  ====================== section2 ======================  -->
-    <div class="section2-container">
-      <Image class="section2" src="imgs/Rectangle 3193.png" width={1440} height={662} alt="" />
-
-      <a href="https://www.youtube.com/@bakkoura3336" target="_blank">
-        <img src="imgs/video.png" />Open with Youtube
-      </a>
+    <div class="Brunette-Blonde">
+      <div class="Brunette">Brunette</div>
+      <div class="Blonde">Blonde</div>
     </div>
+    <div class="hero_line"></div>
+    <!-- // ====================== section1 ====================== // -->
+    <!--  ====================== section2 ======================  -->    
+    <section class="section3" id="Video_Galery">
+      <div class="section2-container">
+        <!-- <Image class="section2" src="imgs/Rectangle 3193.png" width={1440} height={662} alt="" /> -->  
+        <video muted autoplay loop>
+          <source src="imgs/BAKKOURA - LA BLONDE.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+  
+        <a href="https://www.youtube.com/@bakkoura3336" target="_blank">
+          <img src="imgs/video.png" />Open with Youtube
+        </a>
+      </div>
     <!-- // ====================== section2 ====================== // -->
-    <!--  ====================== section3 ======================  -->
-    <section class="section3">
+<!--  ====================== section3 ======================  -->
       <div class="gallery" onclick="openLightbox(event)">
         <Image src="imgs/gallery/Rectangle 3365.png" alt="" />
         <Image src="imgs/gallery/Rectangle 3366.png" alt="" />
@@ -116,7 +126,7 @@
           <br />
           the world, the course of history.
         </p>
-        <a href="#">Read More</a>
+        <a href="popup.html">Read More</a>
       </div>
       <div class="right_side">
         <div class="section4Image"></div>
@@ -125,24 +135,26 @@
     </section>
     <!-- // ====================== section4 ====================== // -->
     <!--  ====================== section5 ======================  -->
-    <section class="section5">
+    <section class="section5" id="Technical_Specs">
       <h1>Technical
         <br />
-        Specs
+        <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Specs
       </h1>
-      <img src="imgs/Section 8.png" />
-      <a href="#">I Want to Buy!</a>
+      <img class="img5" src="imgs/Section 8.png"/>
+      <img class="img5-mobile" src="imgs/tech2.png"/>
+      <a href="https://www.bakkoura.com/watch/la-blonde" target="_blank">I Want to Buy!</a>
     </section>
     <!-- // ====================== section5 ====================== // -->
     <!--  ====================== section6 ======================  -->
     <section class="section6">
       <div class="left_side left_side1">
         <img src="imgs/img.png" />
-        <img class="eye" src="imgs/eye.png" />
+        <!-- <img class="eye" src="imgs/eye.png" /> -->
+        <div class="eye"></div>
       </div>
       <div class="right_side">
         <div class="top">
-          <h1> &nbsp; Up on
+          <h1> &nbsp;&nbsp; Up on
             <br />
             "The wink"
           </h1>
@@ -166,7 +178,7 @@
               Satisfaction Guarantee is our special take back offer for those who have changed their mind. Within a
               year, we will take the Bakkoura watch back to the family and refund you 60% of the cost.
             </p>
-            <a href="#">Read more on Bakkoura.com</a>
+            <a href="https://www.bakkoura.com/watch/la-brunette" target="_blank">Read more on Bakkoura.com</a>
           </div>
         </div>
       </div>
@@ -185,7 +197,7 @@
         It is a unique consumer search and purchase experience: design ideas, limitless customization, unlimited choice
         and individuality.
       </p>
-      <form>
+      <form action="Success.html" method="POST">
         <div class="inputs">
           <input type="text" id="First Name" placeholder="First Name" />
           <input type="text" id="First-Name" placeholder="Last Name" />
@@ -213,27 +225,30 @@
           <p>BAKKOURA © 2021. ALL RIGHTS RESERVED.</p>
         </div>
         <div class="links">
-          <a href="#">Collections</a>
+          <a href="https://www.bakkoura.com/collections" target="_blank">Collections</a>
           <a href="#">About Bakkoura</a>
-          <a href="#">The Story</a>
-          <a href="#">Invest in your ideas</a>
-          <a href="#">WHERE TO BUY</a>
+          <a href="https://www.bakkoura.com/no-line-concept" target="_blank">The Story</a>
+          <a href="https://www.bakkoura.com/invest-in-your-ideas" target="_blank">Invest in your ideas</a>
+          <a href="https://www.badreya.com/collections/the-wink" target="_blank">WHERE TO BUY</a>
         </div>
         <div class="sosyal">
-          <a href="https://www.instagram.com/bakkoura_official/?hl=en">
+          <a href="https://www.instagram.com/bakkoura_official/?hl=en" target="_blank">
+            <div class="instagram"></div>
             <img src="imgs/Group 8129.png" />
           </a>
-          <a href="https://www.facebook.com/bakkoura.official/">
+          <a href="https://www.facebook.com/bakkoura.official/" target="_blank" class="facebook">
             <img src="imgs/Group 8129 (1).png" />
           </a>
-          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FBakkourawatches">
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=/Bakkourawatches" target="_blank" class="twitter">
             <img src="imgs/Group 8129 (2).png" />
           </a>
         </div>
       </div>
       <div class="cookies">
         We use cookies to provide you with the best browsing experience.
-        <a class="#">ok</a>
+        <a class="#">
+          <img src="" />
+        </a>
       </div>
     </footer>
     <!-- // ====================== Footer ====================== // -->
