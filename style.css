@@ -505,18 +505,25 @@ body::-webkit-scrollbar {
   background-color: rgba(246, 216, 125, 1);
   position: absolute;
   margin-top: 800px;
-  top: 0px;
+  top: 0;
   left: 50%;
   transform: translate( 0,-50%);
   animation: 3s hero_line infinite;
   overflow: auto;
 }
+.hero_line::after{
+  content: "";
+  color: rgba(246, 216, 125, 1);
+  height: 500px;
+}
 @keyframes hero_line {
   from {
-    height: 20px;
+    height: 0px;
+    transform: scaleY(0);
   }
   to {
     height: 100px;
+    transform: scaleY(1);
   }
 }
 @media screen and (max-width:820px){
@@ -537,7 +544,6 @@ body::-webkit-scrollbar {
   .black_watch{
     display: none;
   }
-
 .section1.mobile{
   display: flex;
   position: relative;
