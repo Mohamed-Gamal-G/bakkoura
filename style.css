@@ -375,7 +375,7 @@ body::-webkit-scrollbar {
     margin-right: 0%;
   }
   to {
-    margin-right: 30%;
+    margin-right: 25%;
   }
 }
 @keyframes black_watch {
@@ -383,7 +383,7 @@ body::-webkit-scrollbar {
     margin-left: 0%;
   }
   to {
-    margin-left: 10%;
+    margin-left: 15%;
   }
 }
 .Brunette-Blonde{
