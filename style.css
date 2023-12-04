@@ -167,11 +167,6 @@ body::-webkit-scrollbar {
 .primary-header .primary-toggle {
   display: flex;
 }
-
-
-
-
-
 .primary-header .primary-navigation {
   position: absolute;
   display: grid;
@@ -187,12 +182,6 @@ body::-webkit-scrollbar {
   background-color: #000;
   opacity: .9;
 }
-
-
-
-
-
-
 .primary-header .primary-navigation .nav-list {
   display: block;
   overflow: hidden;
@@ -220,32 +209,12 @@ body::-webkit-scrollbar {
 .primary-header .primary-navigation .nav-list .user-profile span {
   margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
 .primary-header #primary-toggle:checked ~ .primary-navigation {
   grid-template-rows: 1fr;
   justify-content: center;
   width: 104%;
   padding-bottom: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:100px) and (max-width:1300px) {
   .primary-header #primary-toggle:checked ~ .primary-navigation {
     width: 105%;
@@ -1296,16 +1265,7 @@ body::-webkit-scrollbar {
       bottom: 355px;
     }
   }
-
-
-
-
-
-
-
-
-
-
+/* We can remove all of this code if we have a Custom photo */
   @media screen and (min-width:100px) and (max-width:535px){
     .section6 .left_side .eye{
       left: 267px;
@@ -1392,12 +1352,6 @@ body::-webkit-scrollbar {
     bottom: 289px;
     }
   }
-/*   @media screen and (min-width:100px) and (max-width:492px){
-    .section6 .left_side .eye{
-      left: 195px;
-      bottom: 290px;
-    }
-  } */
   @media screen and (min-width:100px) and (max-width:385px){
     .section6 .left_side .eye{
       left: 192px;
@@ -1433,44 +1387,6 @@ body::-webkit-scrollbar {
       display: none;
     }
   }
-/*
-
-@media screen and (min-width:100px) and (max-width:620px){
-  .section6 .left_side .eye{
-   left: 260px;
-   bottom: 380px;
-  }
-}
-@media screen and (min-width:100px) and (max-width:608px){
-  .section6 .left_side .eye{
-   left: 250px;
-   bottom: 370px;
-  }
-}
-@media screen and (min-width:100px) and (max-width:588px){
-  .section6 .left_side .eye{
-   left: 249px;
-   bottom: 360px;
-  }
-}
-@media screen and (min-width:100px) and (max-width:580px){
-  .section6 .left_side .eye{
-    left: 239px;
-    bottom: 360px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:566px){
-  .section6 .left_side .eye{
-    left: 230px;
-    bottom: 347px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:545px){
-  .section6 .left_side .eye{
-    left: 223px;
-    bottom: 334px;
-   }
-} */
 @media screen and (min-width:100px) and (max-width:677px){
   .left_side1{
     margin-top: -100px;
@@ -1513,108 +1429,6 @@ body::-webkit-scrollbar {
     width: 120%;
   }
 }
-/* We can remove all of this code if we have a Custom photo */
-/* @media screen and (min-width:100px) and (max-width:530px){
-  .section6 .left_side .eye{
-    left: 260px;
-    bottom: 390px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:517px){
-  .section6 .left_side .eye{
-    left: 250px;
-    bottom: 380px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:500px){
-  .section6 .left_side .eye{
-    left: 243px;
-    bottom: 365px
-   }
-}
-@media screen and (min-width:100px) and (max-width:488px){
-  .section6 .left_side .eye{
-    left: 235px;
-    bottom: 360px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:473px){
-  .section6 .left_side .eye{
-    left: 226px;
-    bottom: 348px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:455px){
-  .section6 .left_side .eye{
-    left: 215px;
-    bottom: 335px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:444px){
-  .section6 .left_side .eye{
-    left: 210px;
-    bottom: 328px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:435px){
-  .section6 .left_side .eye{
-    left: 205px;
-    bottom: 319px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:412px){
-  .section6 .left_side .eye{
-    left: 192px;
-    bottom: 306px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:400px){
-  .section6 .left_side .eye{
-    left: 187px;
-    bottom: 299px
-   }
-}
-@media screen and (min-width:100px) and (max-width:390px){
-  .section6 .left_side .eye{
-    left: 180px;
-    bottom: 292px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:380px){
-  .section6 .left_side .eye{
-    left: 175px;
-    bottom: 283px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:377px){
-  .section6 .left_side .eye{
-    left: 180px;
-    bottom: 292px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:375px){
-  .section6 .left_side .eye{
-    left: 174px;
-    bottom: 279px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:366px){
-  .section6 .left_side .eye{
-    left: 168px;
-    bottom: 273px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:350px){
-  .section6 .left_side .eye{
-    left: 158px;
-    bottom: 267px;
-   }
-}
-@media screen and (min-width:100px) and (max-width:340px){
-  .section6 .left_side .eye{
-    display: none;
-   }
-} */
 /* // ===================== section6 ===================== // */
 /*  ===================== section7 =====================  */
 .section7{
