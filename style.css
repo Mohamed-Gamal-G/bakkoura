@@ -1021,7 +1021,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:650px){
   .section5 img{
-    width: 175%;
+    width: 165%;
   }
   .section5 h1{
     font-size: 90px;
