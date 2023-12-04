@@ -1531,6 +1531,14 @@ form .last p span{
 }
 .submit{
   cursor: pointer;
+  background-image: url(./imgs/Rectangle\ 3373.png);
+  background-size: cover;
+  border: none;
+  padding: 15px 20px;
+  transition: .5s;
+}
+.submit:hover{
+  background-image: url(./imgs/buttons/Property\ 1=Variant2.png);
 }
 input[type='radio'] {
   accent-color:#F0C673;
