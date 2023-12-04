@@ -59,26 +59,22 @@ function changeImage2(myElement, imgList) {
 changeImage2(myElement, imgList);
 /* // black_watch_mob // */
 /* ==================== Section1 ==================== */
-/* ==================== menu ==================== */
-var myElement = document.getElementById('menu'),
-  imgList = [
-    "imgs/Property 1=Default1.png",
-    "imgs/Property 1=Variant2.png",
-  ];
-function changeMenu(myElement, imgList) {
-  setInterval(function () {
-    randomImage = Math.floor(Math.random() * imgList.length);
-    myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 5000);
-}
-changeImage2(myElement, imgList);
-/* // ==================== menu ==================== // */
 /* // ==================== Opening & closing eyes ==================== // */
+/* ==================== menu ==================== */
+const link = document.getElementById('link');
+const addBtn = document.getElementById('primary-navigation');
+const removeBtn = document.getElementById('primary-toggle');
+link.addEventListener('click',()=>{
+  addBtn.classList.add('none');
+})
+removeBtn.addEventListener('click',()=>{
+  addBtn.classList.remove('none');
+})
+/* // ==================== menu ==================== // */
 /*  ==================== Gallery ====================  */
 let currentIndex = 0;
 const images = document.querySelectorAll('.gallery img');
 const totalImages = images.length;
-
 // Open the lightbox
 function openLightbox(event) {
   if (event.target.tagName === 'IMG') {

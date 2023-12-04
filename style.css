@@ -167,6 +167,11 @@ body::-webkit-scrollbar {
 .primary-header .primary-toggle {
   display: flex;
 }
+
+
+
+
+
 .primary-header .primary-navigation {
   position: absolute;
   display: grid;
@@ -182,6 +187,12 @@ body::-webkit-scrollbar {
   background-color: #000;
   opacity: .9;
 }
+
+
+
+
+
+
 .primary-header .primary-navigation .nav-list {
   display: block;
   overflow: hidden;
@@ -209,12 +220,32 @@ body::-webkit-scrollbar {
 .primary-header .primary-navigation .nav-list .user-profile span {
   margin-left: 0;
 }
+
+
+
+
+
+
+
+
+
 .primary-header #primary-toggle:checked ~ .primary-navigation {
   grid-template-rows: 1fr;
   justify-content: center;
   width: 104%;
   padding-bottom: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:100px) and (max-width:1300px) {
   .primary-header #primary-toggle:checked ~ .primary-navigation {
     width: 105%;
@@ -316,6 +347,7 @@ body::-webkit-scrollbar {
   margin: -2px;
   padding-left: 56px;
   background-repeat: no-repeat;
+  animation: 3s eye infinite;
 }
 .Menu-text{
   position: absolute;
@@ -822,11 +854,10 @@ body::-webkit-scrollbar {
   background-image: url("imgs/Rectangle 3373.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 13px 26px 15px 31px;
+  padding: 12px 26px 11px 31px;
   position: absolute;
   bottom: -68px;
   right: -10%;
-  border: 1px solid #9B51E0;
   z-index: 1;
 }
 .section4 .left_side a:hover{
@@ -1685,3 +1716,6 @@ footer .cookies a{
   }
 }
 /* // ===================== popupPage ===================== // */
+.none{
+  display: none !important;
+}
