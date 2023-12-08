@@ -71,6 +71,7 @@ body::-webkit-scrollbar {
   animation: 3s home-link infinite;
   padding: 5px;
   color: #9B51E0;
+  margin-left: -22px;
 }
 /* menu */
 @keyframes home-link {
@@ -313,7 +314,7 @@ body::-webkit-scrollbar {
 .Menu-text{
   position: absolute;
   color: red;
-  right: 90px ;
+  right: 60px ;
   top: 30px;
   font-family: Montserrat;
   font-size: 16px;
@@ -328,7 +329,7 @@ body::-webkit-scrollbar {
 }
 #menu img{
   position: absolute;
-  right: 0px;
+  right: -30px;
   top: 0;
 }
 /* // ===================== NavBar ===================== // */
@@ -1625,6 +1626,7 @@ footer .container .copyright p{
 footer .cookies{
   color: rgba(169, 169, 169, 1);
   text-align: center;
+  line-height: 50px;
 }
 footer .cookies a{
   font-family: Montserrat;
@@ -1665,6 +1667,28 @@ footer .cookies a{
 @media screen and (min-width:100px) and (max-width:720px){
   footer .container .links a{
     display: block;
+  }
+}
+.cookies a{
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 40px;
+  font-size: 7px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  background-image: url("imgs/Rectangle\ 3373.png");
+  margin-left: 50px;
+}
+.cookies a:hover{
+  background-image: url("imgs/buttons/Property\ 1=Variant2.png");
+  transition: .5s;
+  border: none;
+}
+@media screen and (min-width:100px) and (max-width:627px){
+  .cookies a{
+    margin: 30px;
+    margin-top: 50px;
   }
 }
 /* // ===================== Footer ===================== // */
