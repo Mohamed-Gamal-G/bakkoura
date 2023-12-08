@@ -65,7 +65,7 @@ body::-webkit-scrollbar {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 10px;
   letter-spacing: 0em;
   text-align: left;
   animation: 3s home-link infinite;
