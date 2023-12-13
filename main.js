@@ -11,15 +11,15 @@ function changeImage1(myElement, imgList) {
   setInterval(function () {
     randomImage = Math.floor(Math.random() * imgList.length);
     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 1000);
+  }, 2000);
 }
 changeImage1(myElement, imgList);
 /* // Yellow_watch // */
 /* black_watch */
 var myElement = document.getElementById('black_watch'),
   imgList = [
-    "imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+.png",
-    "imgs/open2.png",
+    "imgs/12.png",
+    "imgs/11.png",
   ];
 function changeImage2(myElement, imgList) {
   setInterval(function () {
@@ -40,7 +40,7 @@ function changeImage1(myElement, imgList) {
   setInterval(function () {
     randomImage = Math.floor(Math.random() * imgList.length);
     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 1000);
+  }, 3000);
 }
 changeImage1(myElement, imgList);
 /* // Yellow_watch_mob // */
@@ -54,7 +54,7 @@ function changeImage2(myElement, imgList) {
   setInterval(function () {
     randomImage = Math.floor(Math.random() * imgList.length);
     myElement.style.backgroundImage = "url('" + imgList[randomImage] + "')";
-  }, 1000);
+  }, 3000);
 }
 changeImage2(myElement, imgList);
 /* // black_watch_mob // */

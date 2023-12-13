@@ -350,18 +350,22 @@ body::-webkit-scrollbar {
   background-size: cover;
   position: relative;
   z-index: -1;
-}
+}/* black_watch */
 .section1 .black_watch{
   position: absolute;
   left: 47%;
   top: 50%;
   transform: translate(-47%,-50%);
   z-index: 1;
-  width: 657px;
-  height: 677px;
-  background-image: url("imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+.png");
+/*   width: 657px;
+  height: 677px; */
+  width: 405px;
+  height: 671px;
+  background-image: url("imgs/12.png");
   animation: 3s black_watch forwards;
-/*   transition: 2.5s; */
+  transition: 4.5s;
+  background-size: cover;
+
 } 
 .section1 .Yellow_watch{
   z-index: 2;
@@ -369,7 +373,8 @@ body::-webkit-scrollbar {
   height: 677px;
   background-image: url("imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png");
   animation: 3s Yellow_watch forwards;
-/*   transition: 2.5s; */
+  transition: 4.5s;
+  background-size: cover;
 }
 @keyframes Yellow_watch {
   from {
@@ -560,7 +565,7 @@ body::-webkit-scrollbar {
   background-image: url("imgs/2022-01-16-15-00-47-\(C\,Smoothing4\)+\ \(1\).png");
   background-size: cover;
   animation: 3s Yellow_watch_mob forwards;
-  transition: 2.5s;
+  transition: 4.5s;
 }
 .black_watch_mob{
   position: absolute;
@@ -573,7 +578,7 @@ body::-webkit-scrollbar {
   background-image: url("imgs/black_watch_mob.png");
   background-size: cover;
   animation: 3s black_watch_mob forwards;
-  transition: 2.5s;
+  transition: 4.5s;
   }
 }
 @keyframes Yellow_watch_mob {
