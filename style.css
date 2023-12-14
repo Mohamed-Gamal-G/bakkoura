@@ -77,27 +77,27 @@ body::-webkit-scrollbar {
 @keyframes home-link {
   0%   {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 170.64%);
+    background: linear-gradient(90deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 110.64%);
     -webkit-background-clip: text;
   }
   25%  {
  -webkit-text-fill-color: transparent;
-    background: linear-gradient(70deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 170.64%);
+    background: linear-gradient(70deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 110.64%);
     -webkit-background-clip: text;
   }
   50%  {
  -webkit-text-fill-color: transparent;
-    background: linear-gradient(40deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 170.64%);
+    background: linear-gradient(40deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 150.64%);
     -webkit-background-clip: text;
   }
   75%  {
  -webkit-text-fill-color: transparent;
-    background: linear-gradient(20deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 170.64%);
+    background: linear-gradient(20deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 150.64%);
     -webkit-background-clip: text;
   }
   100% {
      -webkit-text-fill-color: transparent;
-    background: linear-gradient(0deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 170.64%);
+    background: linear-gradient(0deg, #9B51E0 10.64%, rgba(255, 173, 14, 0) 190.64%);
     -webkit-background-clip: text;
   }
 }
