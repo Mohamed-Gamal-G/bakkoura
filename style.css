@@ -1207,28 +1207,32 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:600px){
   .section6 .left_side .eye{
-    left: 207px;
-    bottom: 367px;
-    /* width: 30px; */
+    left: 243px;
+    bottom: 428px 
   }
   .section6 .left_side .eye img{
     width: 30px;
-
   }
   .left_side1 img:first-child{
-    width: 600px;
+    width: 700px;
   }
 }
-@media screen and (min-width:100px) and (max-width:400px){
-  .section6 .left_side .eye{
-    left: 156px;
-    bottom: 367px;
-  }
-  .section6 .left_side .eye img{
-    width: 30px;
-  }
+@media screen and (min-width:100px) and (max-width:500px){
   .left_side1 img:first-child{
     margin-left: -50px;
+  }
+  .section6 .left_side .eye{
+    left: 194px;
+    bottom: 429px;
+  }
+}
+@media screen and (min-width:100px) and (max-width:450px){
+  .left_side1 img:first-child{
+    margin-left: -100px;
+  }
+  .section6 .left_side .eye{
+    left: 142px;
+    bottom: 429px;
   }
 }
 @media screen and (min-width:100px) and (max-width:677px){
