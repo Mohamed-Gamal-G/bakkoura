@@ -240,6 +240,7 @@ body::-webkit-scrollbar {
 @media screen and (min-width:100px) and (max-width:600px) {
   .primary-header #primary-toggle:checked ~ .primary-navigation {
     width: 112%;
+    margin-top: 50px;
   }
 }
 @media screen and (min-width:100px) and (max-width:570px) {
@@ -1186,12 +1187,12 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:1220px){
   .section6 .left_side .eye{
-    left: 495px;
+    left: 497px;
   }
 }
 @media screen and (min-width:100px) and (max-width:1000px){
   .section6 .left_side .eye{
-    left: 395px;
+    left: 397px;
   }
   .left_side1 img:first-child{
     margin-left: 100px;
@@ -1199,7 +1200,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:750px){
   .section6 .left_side .eye{
-    left: 295px;
+    left: 297px;
   }
   .left_side1 img:first-child{
     margin-left: 0;
@@ -1207,7 +1208,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (min-width:100px) and (max-width:600px){
   .section6 .left_side .eye{
-    left: 243px;
+    left: 245px;
     bottom: 428px 
   }
   .section6 .left_side .eye img{
@@ -1231,7 +1232,7 @@ body::-webkit-scrollbar {
     margin-left: -100px;
   }
   .section6 .left_side .eye{
-    left: 142px;
+    left: 145px;
     bottom: 429px;
   }
 }
