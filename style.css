@@ -1172,10 +1172,10 @@ body::-webkit-scrollbar {
     margin-top: -270px;
   }
   .left_side1 img:first-child{
-    margin-left: 8%;
+    margin-left: 200px;
   }
   .section6 .left_side .eye{
-    left: 33%;
+    left: 389px;
   }
   .section6 .right_side .botom p{
     max-width: 100%;
@@ -1184,305 +1184,57 @@ body::-webkit-scrollbar {
     animation: 10s eye_open_1220 infinite;
   }
 }
-@media screen and (min-width:100px) and (max-width:1175px){
+@media screen and (min-width:100px) and (max-width:1220px){
   .section6 .left_side .eye{
-   left: 390px;
-  }
-}
-@media screen and (min-width:100px) and (max-width:1100px){
-  .section6 .left_side .eye{
-   left: 380px;
+    left: 495px;
   }
 }
 @media screen and (min-width:100px) and (max-width:1000px){
   .section6 .left_side .eye{
-   left: 370px;
+    left: 395px;
+  }
+  .left_side1 img:first-child{
+    margin-left: 100px;
   }
 }
-@media screen and (min-width:828px) and (max-width:970px){
+@media screen and (min-width:100px) and (max-width:750px){
+  .section6 .left_side .eye{
+    left: 295px;
+  }
+  .left_side1 img:first-child{
+    margin-left: 0;
+  }
+}
+@media screen and (min-width:100px) and (max-width:600px){
+  .section6 .left_side .eye{
+    left: 207px;
+    bottom: 367px;
+    /* width: 30px; */
+  }
   .section6 .left_side .eye img{
-    margin-left: 25px;
-  } 
-}
-@media screen and (min-width:100px) and (max-width:821px){
-  .section6 .left_side .eye img{
-    margin-left: 12px;
-  } 
-}
-@media screen and (min-width:100px) and (max-width:900px){
-  .section6 .left_side .eye{
-   left: 370px;
+    width: 30px;
+
+  }
+  .left_side1 img:first-child{
+    width: 600px;
   }
 }
-@media screen and (min-width:100px) and (max-width:800px){
+@media screen and (min-width:100px) and (max-width:400px){
   .section6 .left_side .eye{
-   left: 367px;
-   width: 34px;
-   height: 29px;
-   background-size: 100% 100%;
+    left: 156px;
+    bottom: 367px;
   }
-}
-@media screen and (min-width:100px) and (max-width:700px){
-  .section6 .left_side .eye{
-   left: 340px;
-  }
-}
-@media screen and (min-width:100px) and (max-width:677px){
-  .section6 .left_side .eye{
-   left: 280px;
-   bottom: 415px;
-  }
-}
- @media screen and (min-width:100px) and (max-width:670px){
   .section6 .left_side .eye img{
     width: 30px;
   }
-  .section6 .left_side .eye{
-   left: 280px;
-   bottom: 410px;
+  .left_side1 img:first-child{
+    margin-left: -50px;
   }
 }
-@media screen and (min-width:100px) and (max-width:660px){
-  .section6 .left_side .eye{
-   left: 275px;
-   bottom: 400px;
-  }
-}
-  @media screen and (min-width:100px) and (max-width:655px){
-    .section6 .left_side .eye{
-      left: 270px;
-      bottom: 402px;  
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:640px){
-    .section6 .left_side .eye{
-      left: 265px;
-      bottom: 393px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:630px){
-    .section6 .left_side .eye{
-      left: 259px;
-      bottom: 386px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:615px){
-    .section6 .left_side .eye{
-      left: 254px;
-      bottom: 379px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:606px){
-    .section6 .left_side .eye{
-      left: 248px;
-      bottom: 371px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:594px){
-    .section6 .left_side .eye{
-      left: 244px;
-      bottom: 367px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:585px){
-    .section6 .left_side .eye{
-      left: 240px;
-      bottom: 360px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:570px){
-    .section6 .left_side .eye{
-        left: 233px;
-        bottom: 352px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:565px){
-    .section6 .left_side .eye{
-      left: 230px;
-      bottom: 343px;
-    }
-    .section6 .left_side .eye img {
-      width: 25px;
-  }
-  }
-  @media screen and (min-width:536px) and (max-width:555px){
-    .section6 .left_side .eye{
-      left: 267px!important;
-      bottom: 400px!important;
-    } 
-  }
-  @media screen and (min-width:536px) and (max-width:547px){
-    .section6 .left_side .eye{
-    left: 257px!important;
-    bottom: 390px!important;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:535px){
-    .section6 .left_side .eye{
-    left: 257px;
-    bottom: 394px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:481px){
-    .section6 .left_side .eye{
-      left: 238px;
-      bottom: 355px;
-    }
-  }
-/* We can remove all of this code if we have a Custom photo */
-
-  @media screen and (min-width:100px) and (max-width:525px){
-    .section6 .left_side .eye{
-      left: 250px;
-      bottom: 387px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:512px){
-    .section6 .left_side .eye{
-      left: 243px;
-      bottom: 369px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:500px){
-    .section6 .left_side .eye{
-      left: 238px;
-      bottom: 360px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:490px){
-    .section6 .left_side .eye{
-      left: 233px;
-      bottom: 361px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:480px){
-    .section6 .left_side .eye{
-      left: 228px;
-      bottom: 354px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:470px){
-    .section6 .left_side .eye{
-      left: 225px;
-      bottom: 347px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:464px){
-    .section6 .left_side .eye{
-      left: 219px;
-      bottom: 343px;
-    }
-  }
-  @media screen and (min-width:401px) and (max-width:407px){
-    .section6 .left_side .eye{
-      left: 187px!important;
-      bottom: 295px!important;
-    }
-  }
-  @media screen and (min-width:451px) and (max-width:456px){
-    .section6 .left_side .eye{
-      left: 217px;
-      bottom: 330px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:450px){
-    .section6 .left_side .eye{
-      width: 27px;
-      height: 24px;
-      left: 215px;
-      bottom: 330px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:444px){
-    .section6 .left_side .eye{
-      left: 214px;
-      bottom: 326px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:435px){
-    .section6 .left_side .eye{
-      left: 205px;
-      bottom: 321px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:427px){
-    .section6 .left_side .eye{
-      left: 200px;
-      bottom: 315px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:420px){
-    .section6 .left_side .eye{
-      left: 200px;
-    bottom: 309px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:410px){
-    .section6 .left_side .eye{
-      left: 193px;
-      bottom: 302px;
-      width: 29px;
-    }
-  }
-  @media screen and (min-width:400px) and (max-width:407px){
-    .section6 .left_side .eye{
-      left: 193px!important;
-    }
-  }
-  @media screen and (min-width:386px) and (max-width:399px){
-    .section6 .left_side .eye{
-      left: 185px!important;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:400px){
-    .section6 .left_side .eye{
-      left: 190px;
-      bottom: 295px;
-    }
-    
-  }
-  @media screen and (min-width:100px) and (max-width:385px){
-    .section6 .left_side .eye{
-      left: 181px;
-      bottom: 286px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:379px){
-    .section6 .left_side .eye{
-      left: 178px;
-      bottom: 280px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:371px){
-    .section6 .left_side .eye{
-      left: 172px;
-      bottom: 276px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:362px){
-    .section6 .left_side .eye{
-      left: 169px;
-      bottom: 270px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:354px){
-    .section6 .left_side .eye{
-      left: 164px;
-      bottom: 269px;
-    }
-  }
-  @media screen and (min-width:100px) and (max-width:345px){
-    .section6 .left_side .eye{
-      display: none;
-    }
-  }
 @media screen and (min-width:100px) and (max-width:677px){
   .left_side1{
     margin-top: -100px;
     margin-bottom: 100px;
-  }
-  .section6 .left_side1 :first-child{
-    width: 100%;
   }
 }
 @media screen and (min-width:100px) and (max-width:620px){
@@ -1509,35 +1261,12 @@ body::-webkit-scrollbar {
     margin-top: 120px;  
   }
 }
-@media screen and (min-width:100px) and (max-width:555px){
-.section6 .left_side1 :first-child {
-    width: 120%;
-  }
-}
 .section6 .left_side .eye{
   width: 58px;
   height: 35px;
 }
 .section6 .left_side .eye img{
   border-radius: 50%;
-}
-@media screen and (min-width:100px) and (max-width:970px){
-  .section6 .left_side .eye{
-  margin-left: -20px;
-  }
-
-}
-@media screen and (min-width:100px) and (max-width:700px){
-  .section6 .left_side .eye {
-    margin-left: 1px;
-}
-
-}
-@media screen and (min-width:536px) and (max-width:555px){
-  .section6 .left_side .eye{
-    left: 274px;
-    bottom: 410px;
-  }
 }
 /* // ===================== section6 ===================== // */
 /*  ===================== section7 =====================  */
